@@ -51,7 +51,7 @@ public class MainFragment extends  BaseFragment<RequestView,MovieRequestPresente
 
     @Override
     public void resultSuccess(List<Movie> result) {
-        //返回数据
+        //返回数据 1.0.0
         textView.setText("MainFragment:"+result.size());
     }
 
