@@ -44,7 +44,7 @@ public class SubFragment extends  BaseFragment<RequestView,MovieRequestPresenter
     @Override
     public void resultSuccess(List<Movie> result) {
         textView.setText("SubFragment:"+result.size());
-        //mypro
+        //mypro MVP框架
 
     }
 

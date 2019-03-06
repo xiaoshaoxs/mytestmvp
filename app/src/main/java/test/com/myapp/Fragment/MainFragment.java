@@ -44,12 +44,14 @@ public class MainFragment extends  BaseFragment<RequestView,MovieRequestPresente
 
     @Override
     protected void initData() {
+        //获取数据
         getPresenter().getListMovie();
 
     }
 
     @Override
     public void resultSuccess(List<Movie> result) {
+        //返回数据 1.0.0
         textView.setText("MainFragment:"+result.size());
     }
 
