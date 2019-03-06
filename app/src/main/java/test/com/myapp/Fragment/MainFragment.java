@@ -57,6 +57,7 @@ public class MainFragment extends  BaseFragment<RequestView,MovieRequestPresente
 
     @Override
     public void resultFailure(String result) {
+        //失败结果
 
     }
 }
